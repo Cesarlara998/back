@@ -1,0 +1,23 @@
+{
+  "name": "arquitectura",
+  "version": "1.0.0",
+  "description": "backend aplicacion",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon src/index.js",
+    "devbackpack": "backpack",
+    "build": "backpack build"
+  },
+  "author": "Cesar Lara",
+  "license": "ISC",
+  "dependencies": {
+    "backpack-core": "^0.8.4",
+    "bcrypt": "^3.0.6",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.6.9",
+    "morgan": "^1.9.1",
+    "nodemon": "^1.19.1"
+  }
+}
