@@ -1,7 +1,7 @@
 //incluimos Mongoose y abrimos una conexión
 var mongoose = require('mongoose')
 //local
-var MONGO_URL = "mongodb+srv://cesar:jayce123@cluster0-zoami.gcp.mongodb.net/DataCenter01?retryWrites=true&w=majority"
+var MONGO_URL = ""
 //TEST
 
 //PROD
